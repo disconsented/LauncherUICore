@@ -1,0 +1,3 @@
+[submodule "LauncherCore"]
+	path = LauncherCore
+	url = https://github.com/disconsented/LauncherCore
