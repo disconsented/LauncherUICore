@@ -29,8 +29,7 @@ import java.util.jar.Attributes;
  * Console dialog for showing console messages.
  *
  * @author sk89q
- *         <p/>
- *         This code reused & relicensed as LGPL v 3 with permission.
+ *         This code reused and relicensed as LGPL v 3 with permission.
  */
 public class ConsoleFrame extends JFrame implements MouseListener {
     private static final long serialVersionUID = 1L;
@@ -48,6 +47,7 @@ public class ConsoleFrame extends JFrame implements MouseListener {
      * Construct the frame.
      *
      * @param numLines     number of lines to show at a time
+     * @param frameIcon frameIcon
      */
     public ConsoleFrame(int numLines, Image frameIcon) {
         super("Technic Launcher Console");

@@ -71,6 +71,7 @@ public class Console {
      * Log a message given the {@link AttributeSet}.
      *
      * @param line       line
+     * @param level level
      */
     public void log(String line, Level level) {
         line = "[B#" + build + "] " + line;

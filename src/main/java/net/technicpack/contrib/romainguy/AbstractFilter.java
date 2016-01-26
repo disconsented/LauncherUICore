@@ -42,7 +42,7 @@ import java.awt.image.*;
  * interface. This class can be used to created new image filters based
  * on <code>BufferedImageOp</code>.</p>
  *
- * @author Romain Guy <romain.guy@mac.com>
+ * @author Romain Guy romain.guy@mac.com
  */
 
 public abstract class AbstractFilter implements BufferedImageOp {
